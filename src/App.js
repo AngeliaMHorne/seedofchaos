@@ -16,6 +16,7 @@ function App() {
           <Route path="/About" element={<About />} />
         </Routes>
       </main>
+      <Footer></Footer>
       </div>
     </BrowserRouter>
   );
