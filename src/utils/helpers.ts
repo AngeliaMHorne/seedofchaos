@@ -19,11 +19,11 @@ export const getApp = () => {
 const getSubdomain = (location: string) => {
     const locationParts = location.split(".");
 
-    let sliceTill = -2
+    let sliceTill = -3
 
 //for localhost
-const isMainHost = locationParts.slice(-2)[0] === "www";
-if (isMainHost) sliceTill = -2
+const isMainHost = locationParts.slice(-3)[0] === "www";
+if (isMainHost) sliceTill = -3
 
         return locationParts.slice(0, sliceTill).join("");
 
