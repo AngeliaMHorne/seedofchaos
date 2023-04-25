@@ -1,5 +1,5 @@
 import { FC } from "react";
-import React = require("react");
+import React from "react";
 import { Routes, Route } from "react-router-dom";
 import { AppHome, AngeliaHome } from "../pages/Home";
 
