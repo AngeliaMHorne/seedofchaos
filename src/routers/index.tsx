@@ -14,7 +14,7 @@ export const AppRouter: FC = () => {
 export const AngeliaRouter: FC = () => {
     return (
         <Routes>
-            <Route path="/" element={<AngeliaHome />} />
+            <Route path="/angelia" element={<AngeliaHome />} />
         </Routes>
     );
 };
