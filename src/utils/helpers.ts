@@ -10,7 +10,7 @@ export const getApp = () => {
 
     if (subdomain === "") return main.app;
 
-    const app = APPS.find(app => subdomain === app.subdomain);
+    const app = APPS.find(app => subdomain === app.subDomain);
 
     if (!app) return main.app;
     return app.app;
